@@ -10,11 +10,12 @@ Written assuming sqlite database, see .env.example (/PATH/TO/DB/)
 # Setup Instructions 
 
 1. Clone repository 
-2. Copy .env.example to .env
-3. Fill in DB_DATABASE (.env) with a path to the sqlite file 
-4. ```php artisan key:generate```
-5. ```php artisan migrate```
-6. ```php artisan serve``` 
+2. ```composer install```
+3. Copy .env.example to .env
+4. Fill in DB_DATABASE (.env) with a path to the sqlite file 
+5. ```php artisan key:generate```
+6. ```php artisan migrate```
+7. ```php artisan serve``` 
 
 # How to use 
 > You will need a private app with READ/WRITE on products for any shopify store. 
