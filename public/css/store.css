@@ -1,0 +1,9 @@
+.product-image {
+    max-width: 10%;
+    max-height: 300px;
+
+}
+
+.hidden-area {
+    display: none;
+}
